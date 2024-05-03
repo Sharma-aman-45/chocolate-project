@@ -1,0 +1,51 @@
+body {
+    background-color: plum;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blueviolet;
+  
+}
+
+#chocolates {
+    display: inline;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.chocolate {
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.chocolate.selected {
+    background-color:blueviolet; 
+}
+
+#summary {
+    margin-top: 20px;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: center;
+}
+
+#totalPrice {
+    font-weight: bold;
+}
+.footer{
+    height: 500px;
+    width: 100%;
+    border:  2px circle red;
+}
+.footer img{
+    height: 100%;
+    width: 100%;
+  
+    
+}
